@@ -30,7 +30,7 @@ export default function Tecnologias() {
             <h1>Essas são as tecnologias que eu estudo...</h1>
             <section>
                 {stackList.map((stack, index) => (
-                    <div className='stackpallete'>
+                    <div key={index} className='stackpallete'>
                         <h1>{stack.name}</h1>
                         <img src={stack.url}></img>
                     </div>

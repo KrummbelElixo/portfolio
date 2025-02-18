@@ -13,7 +13,6 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     <html lang="pt-BR">
       <body>
         <Header></Header>
-
         {children}
       </body>
     </html>
